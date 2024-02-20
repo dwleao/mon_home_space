@@ -29,6 +29,16 @@ header div a {
     text-decoration: none;
     color: black;
 }
+body h1 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    background-color: white;
+    font-size: 80px;
+
+}
 .slider-1 {
     max-width: 1160px;
     overflow: hidden;
@@ -63,3 +73,39 @@ header div a {
         transform: translateX(-400%);
     }
 }
+.blog {
+    width: 1160px;
+    display: flex;
+    background-color: white;
+    color: white;
+}
+div h3 {
+    padding-top: 10px;
+    text-align: center;
+    margin : 0px;
+    background-color: #592A2E;
+    height: 40px;
+}
+.blog div {
+    flex: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.blog div div {
+    background-color: #736B65;
+    width: 288px;
+    align-self: center;
+    padding-bottom: 80px;
+
+}
+#blog-1 {
+    margin-left: 120px;
+}
+#blog-3 {
+    margin-right: 100px;
+}
+
+
+
+
+
