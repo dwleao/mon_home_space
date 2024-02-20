@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@font-face {
+    font-family: "News Gothic Std";
+    src: url(../font/NewsGothicStd.woff) format("woff"),
+    url(../font/NewsGothicStd.otf) format("opentype");
+}
+
+h1, h2, h3, h4 {
+    font-family: "News Gothic Std";
+}
+body {
+    font-family: "Open Sans", "sans-serif";
+}
