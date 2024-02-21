@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <link rel="icon" href="./assets/images/logo.png">
     <meta charset="UTF-8">
     <meta name="description" content="A Home Space">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,13 +11,11 @@
 <body>
     <header>
         <nav>
-            <div>
-                <a href="#">HOME</a>
-                <a href="#">ABOUT US</a>
-                <a href="#">PRODUCTS</a>
-                <a href="#">SERVICE</a>
-                <a href="#">CONTACT</a>
-            </div>
+               <div id="home"><a href="#">HOME</a></div> 
+                <div id="about"><a href="#">ABOUT US</a></div>
+                <div id="products"><a href="#">PRODUCTS</a></div>
+                <div id="service"><a href="#">SERVICE</a></div>
+                <div id="contact"><a href="#">CONTACT</a></div>
         </nav>
     </header>
     <main>
@@ -26,7 +25,7 @@
                   <img src="./assets/images/carousel/carousel-1.jpg" alt="une très jolie chambre">
                   <img src="./assets/images/carousel/carousel-2.jpg" alt="une très jolie cuisine">
                   <img src="./assets/images/carousel/carousel-3.jpg" alt="un très joli séjour">
-                  <img src="./assets/images/carousel/carousel-1.jpg" alt="une très jolie chambre">
+
                 </div>
             </div>
             <section class="blog">
@@ -35,9 +34,9 @@
                         <h3>LAST WORKS</h3>
                         <img src="./assets/images/pic1.jpg" alt="un salon bien décoré">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam feugiat augue non egestas volutpat. Nunc vehicula aliquam nisl, id interdum nibh malesuada eu.</p>
-                        <aside>
-
-                        </aside>
+                        <div>
+                            <a href="#"><img src="./assets/images/plus_btn.png" alt="bouton plus" class="bouton_plus"></a>
+                        </div>
                     </div>
                 </div>
                 <div id="blog-2">
@@ -45,9 +44,9 @@
                         <h3>PRODUCTS</h3>
                         <img src="./assets/images/pic2.jpg" alt="un canapé orange sur un fond orange">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam feugiat augue non egestas volutpat. Nunc vehicula aliquam nisl, id interdum nibh malesuada eu.</p>
-                        <aside>
-
-                        </aside>
+                        <div>
+                            <a href="#"><img src="./assets/images/plus_btn.png" alt="bouton plus" class="bouton_plus"></a>
+                        </div>
                     </div>
                 </div>
                 <div id="blog-3">
@@ -55,19 +54,48 @@
                         <h3>SERVICE</h3>
                         <img src="./assets/images/pic3.jpg" alt="une chambre bien décorée">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam feugiat augue non egestas volutpat. Nunc vehicula aliquam nisl, id interdum nibh malesuada eu.</p>
-                        <aside>
-
-                        </aside>
+                        <div>
+                            <a href="#"><img src="./assets/images/plus_btn.png" alt="bouton plus" class="bouton_plus"></a>
+                        </div>
                     </div>
                 </div>
             </section>
-            <div id="articles">
-
+            <div class="articles">
+                <div id="testimonials">
+                    <h4>Testimonials</h4>
+                    <ul>
+                        <li><img src="./assets/images/arrow.png" alt="petite flèche">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam feugiat augue non egestas volutpat.</li>
+                        <li><img src="./assets/images/arrow.png" alt="petite flèche">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam feugiat augue non egestas volutpat.</li>
+                        <li><img src="./assets/images/arrow.png" alt="petite flèche">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+                        <li><img src="./assets/images/arrow.png" alt="petite flèche">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+                        <li><img src="./assets/images/arrow.png" alt="petite flèche">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+                    </ul>
+                </div>
+                <div id="testimonials">
+                    <h4>Premium services</h4>
+                    <p style="color: #592A2E;"><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam feugiat augue non egestas volutpat.</b></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam feugiat augue non egestas volutpat.</p>
+                    <input type="button" value="Read More"/>
+                </div>
+                <div id="testimonials">
+                    <h4>About us</h4>
+                    <p style="color: #592A2E;"><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam feugiat augue non egestas volutpat.</b></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam feugiat augue non egestas volutpat.</p>
+                    <input type="button" value="Read More"/>
+                </div>
             </div>
-
     </main>
     <footer>
-
+        <section class="footer">
+            <div id="design_by">
+                <p>Design by Ispace</p>
+            </div>
+            <div id="socials">
+                <a href="https://www.facebook.com/" target="_blank"><img src="./assets/images/fb.png" alt="logo facebook"></a>
+                <a href="https://twitter.com/" target="_blank"><img src="./assets/images/tt.png" alt="logo twitter"></a>
+                <a href="https://www.google.com/" target="_blank"><img src="./assets/images/gg.png" alt="logo google"></a>
+            </div>
+        </section>
     </footer>
     
 </body>
