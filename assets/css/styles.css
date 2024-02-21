@@ -19,15 +19,29 @@ body {
 header {
     background-color: white;
 }
-header div {
+header nav {
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     height: 80px;
+    padding-left: 80px;
 }
-header div a {
+header nav div {
+    flex-basis: 20%;
+    height: 100%;
+    text-align: center;
+    padding-top: 100px;
+}
+header nav div a {
     text-decoration: none;
-    color: black;
+
+}
+#home {
+    background-color: #592A2E;
+}
+#home a {
+    color: white;
 }
 body h1 {
     text-align: center;
@@ -54,23 +68,19 @@ body h1 {
 }
 @keyframes slider-1 {
     0%,
-    20% {
+    25% {
         transform: translateX(0);
     }
-    25%,
-    45% {
+    30%,
+    55% {
         transform: translateX(-100%);
     }
-    50%,
-    70% {
+    60%,
+    95% {
         transform: translateX(-200%);
     }
-    75%,
-    95% {
-        transform: translateX(-300%);
-    }
     100% {
-        transform: translateX(-400%);
+        transform: translateX(-300%);
     }
 }
 .blog {
@@ -95,7 +105,6 @@ div h3 {
     background-color: #736B65;
     width: 288px;
     align-self: center;
-    padding-bottom: 80px;
 
 }
 #blog-1 {
@@ -104,8 +113,52 @@ div h3 {
 #blog-3 {
     margin-right: 100px;
 }
-
-
-
-
-
+.articles {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.articles div {
+    text-align: left;
+    width: 300px;
+}
+.articles div input {
+    background-color: #736B65;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+}
+.articles div ul {
+    list-style: none;
+}
+.footer {
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    border-top: black solid 2px;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+#design_by {
+    padding-left: 10px;
+    flex-basis: 90%;
+}
+#socials {
+    flex-basis: 10%;
+    align-self: center;
+}
+.blog div div div {
+    display: flex;
+    justify-content: end;
+}
+.articles input:hover {
+    background-color: white;
+    border: #736B65 solid 2px;
+    color:#736B65
+}
+footer img:hover {
+    opacity: 70%;
+}
